@@ -1,0 +1,6 @@
+# Database dumps
+*.sql
+*.sql.gz
+*.db
+*.sqlite
+
