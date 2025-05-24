@@ -7,6 +7,9 @@ if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit();
 }
+if (isset($_GET['deleted']) && $_GET['deleted'] == 1) {
+    echo "<div class='alert alert-success'>Post deleted successfully!</div>";
+}
 
 $user_id=$_SESSION['user_id'];
 
