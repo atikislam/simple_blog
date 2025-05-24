@@ -3,4 +3,5 @@
 *.sql.gz
 *.db
 *.sqlite
+db_connect.php
 
